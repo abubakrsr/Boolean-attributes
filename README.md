@@ -1,2 +1,2 @@
-# Boolean-attributes
-Html Boolean attributes
+# CSS Selector
+CSS Selector Properties
