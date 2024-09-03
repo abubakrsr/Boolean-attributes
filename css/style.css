@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+body{
+	height: 1000vh;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+
+.bg{
+	background-color: palegoldenrod;
+	margin: 50px 0;
+	padding: 10px;
+}
+
+
+.bg, .ny{
+	color: maroon;
+}
+
+#para{
+	margin-top: 50px;
+	color: darkmagenta;
+	text-align: justify;
+}
+
+p{
+	font-family: sans-serif;
+}
+
+p.int{
+margin-top: 20px;
+border: 1px solid rosybrown;
+padding: 5px;
+font-family: serif;
+}
+
+div,p{
+	font-size: 19px;
+}
+
+
+.mt{
+	margin-top: 20px;
+}
+div a{
+display: block;
+	text-decoration: none;
+	color: maroon;
+}
+
+div > h3{
+color: royalblue;
+}
+
+div + p{
+	background-color: lightpink;
+	padding: 10px;
+}
+
+p ~ ul{
+	list-style: square;
+}
+
+a[target] {
+	text-align: center;
+	background-color: yellow;
+}
+
+[title~="intel"] {
+	color: green;
+}
+
+a[href^="https"] {
+	border: 1px dotted blue;
+	padding: 5px;
+	font-size: 10px;
+	text-decoration: none;
+
+}
+
+a[href$=".pdf"] {
+	background-color: lightskyblue;
+	color: purple;
+	text-decoration: none;
+	padding: 10px 0;
+	text-align: center;
+}
+
+p::after {
+	content: "- This is a paragraph";
+}
+
+p::before {
+	content: "Read this carefully: ";
+	color: red;
+}
+
+input:checked {
+	height: 50px;
+	width: 50px;
+}
+
+input:default {
+	box-shadow: 0 0 1px 1px black;
+}
+
+input[type="text"]:enabled {
+
+padding: 10px 15px;
+
+}
+
+input[type="text"]:disabled {
+background: yellow;	
+}
+
+h1:empty{
+	border: 1px solid red;
+	height: 50px;
+}
+
+p:first-child {
+	background-color: pink;
+}
+
+p::first-letter {
+	font-size: 200%;
+	color: blue;
+}
+
+p::first-line {
+	text-decoration: underline;
+}
+
+h5:first-of-type {
+background: yellow;
+}
+
+input:focus {
+	background-color: pink;
+	
+}
+
+h2:has(+p) {
+	color: salmon;
+	background-color: black;
+}
+
+button {
+	background-color: red;
+	color: white;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: white;
+	color: red;
+	border: 1px solid black;
+	
+}
+
+input:in-range {
+	border: 1px dashed green;
+	font-size: 20px;
+	color: blueviolet;
+	padding: 10px;
+
+}
+
+input:invalid {
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+p:last-child {
+	background-color: palegoldenrod;
+	
+	padding: 10px;
+	
+}
+
+h5:last-of-type {
+background: orange;
+}
+
+a:link {
+	color: green;
+}
+
+::marker {
+	color: red;
+}
+
+p{
+	text-transform: lowercase;
+}
+:not(p) {
+text-transform: capitalize;
+}
+
+::placeholder {
+	text-align: center;
+}
+
+input:out-of-range {
+	background-color: purple;
+	border: 5px dashed pink;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+
+input:readonly {
+	background-color: wheat;
+	color: grey;
+
+}
+
+
+
+input:read-write {
+	text-align: center;
+	padding: 10px;
+	background-color: gray;
+	color: wheat;
+}
+
+input:required {
+	border: 5px solid blue;
+}
+
+:root {
+	background: lightskyblue;
+}
+
+::selection {
+	color: white;
+	background: pink;
+}
+
+
+
+
+
+
+
+
+
+
